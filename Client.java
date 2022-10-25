@@ -10,7 +10,7 @@ public class Client  {
     public static void main(String[] args) {
         Boolean x = true;
         IRouteFinder routeFinder = new RouteFinder();
-        //Sara's Code
+        
         while(x) {
             System.out.println("Please enter a letter that you destinations start with: ");
             Scanner scanner = new Scanner(System.in);
@@ -52,7 +52,7 @@ public class Client  {
             if(!co.equalsIgnoreCase("y")){
                 x = false; //break
             }
-            //end of Sara's code
+            
         }
     }
 }
